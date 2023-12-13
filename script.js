@@ -73,6 +73,7 @@ function initTimer() {
         wpmTag.innerText = wpm;
     } else {
         clearInterval(timer);
+        window.alert("Time is Up! Thank you for playing! :)");
     }
 }
 
